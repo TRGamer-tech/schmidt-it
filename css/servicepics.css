@@ -1,0 +1,101 @@
+.card {
+    background-color: inherit;
+    min-width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.6s cubic-bezier(0.525, 0.195, 0.000, 0.975);
+}
+
+.whitehover {
+    box-shadow: 0px 0px 7px white;
+    transition: 0.6s cubic-bezier(0.525, 0.195, 0.000, 0.975);
+}
+
+.blackhover {
+    box-shadow: 0px 0px 7px black;
+    transition: 0.6s cubic-bezier(0.525, 0.195, 0.000, 0.975);
+}
+
+.remote {
+    width: 25vw
+}
+
+.virus {
+    width: 25vw
+}
+
+.backup {
+    width: 17vw
+}
+
+.windows {
+    width: 25vw
+}
+
+.browser {
+    width: 18vw
+}
+
+.keyboard {
+    width: 22vw
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 40vw;
+    }
+    
+    .remote {
+        width:21vw
+    }
+
+    .virus {
+        width: 21vw
+    }
+
+    .backup {
+        width: 15vw
+    }
+
+    .windows {
+        width: 25vw
+    }
+
+    .browser {
+        width: 18vw
+    }
+
+    .keyboard {
+        width: 28vw
+    
+    }
+}
+@media screen and (max-width: 767px) {
+    .card {
+        width: 75vw;
+    }
+    
+    .remote {
+        width:50vw
+    }
+
+    .virus {
+        width: 45vw
+    }
+
+    .backup {
+        width: 37vw
+    }
+
+    .windows {
+        width: 45vw
+    }
+
+    .browser {
+        width: 38vw
+    }
+
+    .keyboard {
+        width: 48vw
+    }
+}
