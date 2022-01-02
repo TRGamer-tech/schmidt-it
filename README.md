@@ -1,2 +1,2 @@
 # schmidt-it
-The official Discord for the Schmidt-IT Website!
+The official Github for the Schmidt-IT Website!
