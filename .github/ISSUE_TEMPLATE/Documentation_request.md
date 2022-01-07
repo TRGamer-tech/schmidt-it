@@ -1,5 +1,5 @@
 ---
-name: "\U0001F4C3 Antrag auf Dokumentation"
+name: "\U0001F4C3 Dokumentationsanfrage"
 about: Schlage Ergänzungen oder Korrekturen zu unserem Dokumentationszentrum vor!
 title: '[Dokumentation]: Richtig dokumentieren '
 labels: Dokumentation
@@ -7,22 +7,22 @@ assignees: ''
 
 ---
 
-## Documentation request
+## Dokumentationsanfrage
 
-<!-- Choose: adding a new page, or edit existing content. -->
+<!-- Wählen Sie: eine neue Seite hinzufügen oder einen bestehenden Inhalt bearbeiten. -->
 
-### Add a new page 🆕
+### Eine neue Seite hinzufügen 🆕.
 
-**What documentation you'd like us to add?**
-Put suggestion here.
+**Welche Dokumentation sollen wir hinzufügen?**
+Geben Sie den Vorschlag hier ein.
 
-**Where in the documentation tree?**
-Put section here.
+**Wo im Dokumentationsbaum?**
+Abschnitt hier einfügen.
 
-### Edit existing content 📝
+### Vorhandenen Inhalt bearbeiten 📝
 
-**Which page(s) do you want us to edit?**
-Put link here.
+**Welche Seite(n) sollen wir bearbeiten?**
+Link hier einfügen.
 
-**What do you think should be changed?**
-Put requested changes here.
+**Was sollte Ihrer Meinung nach geändert werden?**
+Geben Sie die gewünschten Änderungen hier ein.
