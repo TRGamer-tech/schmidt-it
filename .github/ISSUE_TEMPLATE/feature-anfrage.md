@@ -1,5 +1,5 @@
 ---
-name: 🐛 Feature-Anfrage
+name: 🚀 Feature-Anfrage
 about: Eine Idee für dieses Projekt vorschlagen
 title: "[Anfrage]: Die Seite leserlicher machen"
 labels: Anfrage
