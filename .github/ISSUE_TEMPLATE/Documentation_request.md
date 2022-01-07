@@ -1,8 +1,8 @@
 ---
 name: "\U0001F4C3 Antrag auf Dokumentation"
 about: Schlage Ergänzungen oder Korrekturen zu unserem Dokumentationszentrum vor!
-title: ''
-labels: Documentation
+title: '[Dokumentation]: Richtig dokumentieren '
+labels: Dokumentation
 assignees: ''
 
 ---
