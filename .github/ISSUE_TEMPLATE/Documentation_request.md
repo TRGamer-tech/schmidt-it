@@ -1,6 +1,6 @@
 ---
-name: "\U0001F4C3 Documentation request"
-about: Suggest additions or fixes to our documentation hub!
+name: "\U0001F4C3 Antrag auf Dokumentation"
+about: Schlage Ergänzungen oder Korrekturen zu unserem Dokumentationszentrum vor!
 title: ''
 labels: Documentation
 assignees: ''
