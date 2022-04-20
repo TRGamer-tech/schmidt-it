@@ -1,7 +1,7 @@
 ---
 name: 🐛 Fehlerbericht
 about: Erstelle einen Bericht, der uns hilft, uns zu verbessern
-title: "[Fehler]: Link zur Kontaktseite funktioniert in der Navigationsleiste nicht"
+title: "[Fehler]: (Beispiel) Link zur Kontaktseite funktioniert in der Navigationsleiste nicht"
 labels: Fehler
 assignees: ''
 
