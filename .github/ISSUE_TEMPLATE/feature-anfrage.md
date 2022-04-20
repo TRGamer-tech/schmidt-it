@@ -1,7 +1,7 @@
 ---
 name: 🚀 Feature-Anfrage
 about: Eine Idee für dieses Projekt vorschlagen
-title: "[Anfrage]: Die Seite leserlicher machen"
+title: "[Anfrage]: (Beispiel) Die Seite leserlicher machen"
 labels: Anfrage
 assignees: ''
 
