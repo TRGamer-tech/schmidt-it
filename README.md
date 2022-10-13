@@ -1,10 +1,10 @@
 # Schmidt-IT - After Effects Crashkurs 
-## Wo Informatik (und Kreativität) ernst genommen wird.
+## Wo Informatik ernst genommen wird.
 
-Dieser Branch ist nur für die Entwicklung und aufbereitung der [After Effects Crashkurs][aecrashkurs]
+Dieser Branch ist nur für die Entwicklung und aufbereitung der [Prodktionsseite von Schmidt-IT][prod]
 
 ## Inhalt
-- [After Effects Crashkurs][aecrashkurs]
+- [Neue Beta Hauptseite][prod]
 
 ## Infos
 
@@ -16,4 +16,4 @@ MIT
 
 **Gratis Webseite, Yayy!**
 
-[aecrashkurs]: <https://aecrashkurs.schmidt-it.ch>
+[prod]: <https://prod.schmidt-it.ch>
