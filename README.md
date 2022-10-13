@@ -7,6 +7,8 @@ Dies ist das offizielle GitHub für die Seite Schmidt-IT. Sie unterliegt der MIT
 
 - Hauptseite (schmidt-it.ch)
 - After Effects Crashkurs (aecrashkurs.schmidt-it.ch)
+- Alte Hauptseite (old.schmidt-it.ch)
+- Neue Beta Hauptseite (prod.schmidt-it.ch)
 - Weitere zukünftige Projekte mit der Webseite
 
 ## Infos
