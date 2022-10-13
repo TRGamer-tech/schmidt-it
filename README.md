@@ -14,9 +14,10 @@ Dies ist das offizielle GitHub für die Seite Schmidt-IT. Sie unterliegt der MIT
 ## Infos
 
 Die Webseite wird auf Netlify (netlify.com) gehostet, jedoch werden die aktualisierungen nur hier auf GitHub gemacht. 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9380bcd-7be0-48de-8c4d-fd039a0a1805/deploy-status?branch=old)](https://app.netlify.com/sites/schmidt-it/deploys)
 
 > Branches and deploys:
-> [![Netlify Status](https://api.netlify.com/api/v1/badges/b9380bcd-7be0-48de-8c4d-fd039a0a1805/deploy-status?branch=old)](https://app.netlify.com/sites/schmidt-it/deploys)
+> 
 > Netlify lets you control which branches in your Git repository you want to deploy.
 > By default, Netlify deploys the site’s production branch after every change.
 > To generate branch deploys for other branches in your repository, select your site on
