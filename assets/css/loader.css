@@ -4,6 +4,9 @@
 	height: 100vh;
 	background: #212529; /*url('https://cssauthor.com/wp-content/uploads/2018/06/Bouncy-Preloader.gif') no-repeat center;*/
 	z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*
 #loader {
