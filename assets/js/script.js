@@ -41,6 +41,7 @@ $(window).on('load', function() {
         //$('nav').addClass('bg-dark');
         $('nav').removeClass('shadow-black');
         $('nav').addClass('shadow-white');
+        $('a.active').addClass('dark-active');
         $('.dropdown-menu').removeClass('dropdown-menu-light');
         $('.dropdown-menu').addClass('dropdown-menu-dark');
         $('.footer').removeClass('bg-light');
@@ -88,6 +89,7 @@ $(window).on('load', function() {
         //$('nav').removeClass('bg-dark');
         $('nav').addClass('shadow-black');
         $('nav').removeClass('shadow-white');
+        $('a.active').removeClass('dark-active');
         $('.dropdown-menu').addClass('dropdown-menu-light');
         $('.dropdown-menu').removeClass('dropdown-menu-dark');
         $('.footer').addClass('bg-light');
