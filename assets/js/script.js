@@ -28,127 +28,119 @@ $(window).on('load', function() {
     });
 
     //Light-Dark Mode Switch
-    function activateLightMode() {
-        $('body').removeClass('bg-dark');
-        $('body').addClass('bg-light');
-        $('body').removeClass('text-light');
-        $('body').addClass('text-dark');
-        $('nav').removeClass('navbar-dark');
-        $('nav').addClass('navbar-light');
-        $('nav').removeClass('bg-dark');
-        $('nav').addClass('bg-light');
-        $('nav').removeClass('shadow-white');
-        $('nav').addClass('shadow-black');
-        $('.dropdown-menu').removeClass('dropdown-menu-dark');
-        $('.dropdown-menu').addClass('dropdown-menu-light');
-        $('.footer').removeClass('bg-dark');
-        $('.footer').addClass('bg-light');
-        $('.footer').removeClass('text-dark');
-        $('.footer').addClass('text-light');
-        $('.footer').removeClass('footer-shadow-white');
-        $('.footer').addClass('footer-shadow-black');
-        $('table').removeClass('table-dark');
-        $('table').addClass('table-light');
-        $('.modal-content').removeClass('bg-dark');
-        $('.modal-content').addClass('bg-light');
-        $('.form-control').removeClass('bg-secondary');
-        $('.form-control').addClass('bg-light');
-        $('.form-control').removeClass('text-light');
-        $('.form-control').addClass('text-dark');
-        $('.input-group-text').removeClass('bg-secondary');
-        $('.input-group-text').addClass('bg-light');
-        $('.input-group-text').removeClass('text-light');
-        $('.input-group-text').addClass('text-dark');
-        $('#modeSwitchText').removeClass('text-light');
-        $('#modeSwitchText').addClass('text-dark');
-        $('#modeIcon').removeClass('text-light');
-        $('#modeIcon').addClass('text-dark');
-        $('#modeIcon').removeClass('bi-moon-stars-fill');
-        $('#modeIcon').addClass('bi-brightness-high-fill');
-        $('#textModeSwitchText').removeClass('text-light');
-        $('#textModeSwitchText').addClass('text-dark');
-        $('#textModeIcon').removeClass('text-light');
-        $('#textModeIcon').addClass('text-dark');
-        $('#copyRight').removeClass('text-light');
-        $('#copyRight').addClass('text-dark');
-        $('#secretbtn').addClass('text-light');
-        $('#secretbtn').removeClass('text-dark');
-        $('#secretbtn').addClass('btn-light');
-        $('#secretbtn').removeClass('btn-dark');
+    function activateDarkMode() {
+        $('body').removeClass('bg-light');
+        $('body').addClass('bg-dark');
+        $('body').removeClass('text-dark');
+        $('body').addClass('text-light');
+        $('nav').removeClass('navbar-light');
+        $('nav').addClass('navbar-dark');
+        $('nav').removeClass('bg-light');
+        $('nav').addClass('bg-dark');
+        $('nav').removeClass('shadow-black');
+        $('nav').addClass('shadow-white');
+        $('.dropdown-menu').removeClass('dropdown-menu-light');
+        $('.dropdown-menu').addClass('dropdown-menu-dark');
+        $('.footer').removeClass('bg-light');
+        $('.footer').addClass('bg-dark');
+        $('.footer').removeClass('text-light');
+        $('.footer').addClass('text-dark');
+        $('.footer').removeClass('footer-shadow-black');
+        $('.footer').addClass('footer-shadow-white');
+        $('table').removeClass('table-light');
+        $('table').addClass('table-dark');
+        $('.modal-content').removeClass('bg-light');
+        $('.modal-content').addClass('bg-dark');
+        $('.form-control').removeClass('bg-light');
+        $('.form-control').addClass('bg-secondary');
+        $('.form-control').removeClass('text-dark');
+        $('.form-control').addClass('text-light');
+        $('.input-group-text').removeClass('bg-light');
+        $('.input-group-text').addClass('bg-secondary');
+        $('.input-group-text').removeClass('text-dark');
+        $('.input-group-text').addClass('text-light');
+        $('#modeSwitchText').removeClass('text-dark');
+        $('#modeSwitchText').addClass('text-light');
+        $('#modeIcon').removeClass('text-dark');
+        $('#modeIcon').addClass('text-light');
+        $('#modeIcon').removeClass('bi-brightness-high-fill');
+        $('#modeIcon').addClass('bi-moon-stars-fill');
+        $('#textModeSwitchText').removeClass('text-dark');
+        $('#textModeSwitchText').addClass('text-light');
+        $('#textModeIcon').removeClass('text-dark');
+        $('#textModeIcon').addClass('text-light');
+        $('#copyRight').removeClass('text-dark');
+        $('#copyRight').addClass('text-light');
     }
 
-    function deactivateLightMode() {
-        $('body').addClass('bg-dark');
-        $('body').removeClass('bg-light');
-        $('body').addClass('text-light');
-        $('body').removeClass('text-dark');
-        $('nav').addClass('navbar-dark');
-        $('nav').removeClass('navbar-light');
-        $('nav').addClass('bg-dark');
-        $('nav').removeClass('bg-light');
-        $('nav').addClass('shadow-white');
-        $('nav').removeClass('shadow-black');
-        $('.dropdown-menu').addClass('dropdown-menu-dark');
-        $('.dropdown-menu').removeClass('dropdown-menu-light');
-        $('.footer').addClass('bg-dark');
-        $('.footer').removeClass('bg-light');
-        $('.footer').addClass('text-dark');
-        $('.footer').removeClass('text-light');
-        $('.footer').addClass('footer-shadow-white');
-        $('.footer').removeClass('footer-shadow-black');
-        $('table').addClass('table-dark');
-        $('table').removeClass('table-light');
-        $('.modal-content').addClass('bg-dark');
-        $('.modal-content').removeClass('bg-light');
-        $('.form-control').addClass('bg-secondary');
-        $('.form-control').removeClass('bg-light');
-        $('.form-control').addClass('text-light');
-        $('.form-control').removeClass('text-dark');
-        $('.input-group-text').addClass('bg-secondary');
-        $('.input-group-text').removeClass('bg-light');
-        $('.input-group-text').addClass('text-light');
-        $('.input-group-text').removeClass('text-dark');
-        $('#modeSwitchText').addClass('text-light');
-        $('#modeSwitchText').removeClass('text-dark');
-        $('#modeIcon').addClass('text-light');
-        $('#modeIcon').removeClass('text-dark');
-        $('#modeIcon').addClass('bi-moon-stars-fill');
-        $('#modeIcon').removeClass('bi-brightness-high-fill');
-        $('#textModeSwitchText').addClass('text-light');
-        $('#textModeSwitchText').removeClass('text-dark');
-        $('#textModeIcon').addClass('text-light');
-        $('#textModeIcon').removeClass('text-dark');
-        $('#copyRight').addClass('text-light');
-        $('#copyRight').removeClass('text-dark');
-        $('#secretbtn').removeClass('text-light');
-        $('#secretbtn').addClass('text-dark');
-        $('#secretbtn').removeClass('btn-light');
-        $('#secretbtn').addClass('btn-dark');
+    function deactivateDarkMode() {
+        $('body').addClass('bg-light');
+        $('body').removeClass('bg-dark');
+        $('body').addClass('text-dark');
+        $('body').removeClass('text-light');
+        $('nav').addClass('navbar-light');
+        $('nav').removeClass('navbar-dark');
+        $('nav').addClass('bg-light');
+        $('nav').removeClass('bg-dark');
+        $('nav').addClass('shadow-black');
+        $('nav').removeClass('shadow-white');
+        $('.dropdown-menu').addClass('dropdown-menu-light');
+        $('.dropdown-menu').removeClass('dropdown-menu-dark');
+        $('.footer').addClass('bg-light');
+        $('.footer').removeClass('bg-dark');
+        $('.footer').addClass('text-light');
+        $('.footer').removeClass('text-dark');
+        $('.footer').addClass('footer-shadow-black');
+        $('.footer').removeClass('footer-shadow-white');
+        $('table').addClass('table-light');
+        $('table').removeClass('table-dark');
+        $('.modal-content').addClass('bg-light');
+        $('.modal-content').removeClass('bg-dark');
+        $('.form-control').addClass('bg-light');
+        $('.form-control').removeClass('bg-secondary');
+        $('.form-control').addClass('text-dark');
+        $('.form-control').removeClass('text-light');
+        $('.input-group-text').addClass('bg-light');
+        $('.input-group-text').removeClass('bg-secondary');
+        $('.input-group-text').addClass('text-dark');
+        $('.input-group-text').removeClass('text-light');
+        $('#modeSwitchText').addClass('text-dark');
+        $('#modeSwitchText').removeClass('text-light');
+        $('#modeIcon').addClass('text-dark');
+        $('#modeIcon').removeClass('text-light');
+        $('#modeIcon').addClass('bi-brightness-high-fill');
+        $('#modeIcon').removeClass('bi-moon-stars-fill'); 
+        $('#textModeSwitchText').addClass('text-dark');
+        $('#textModeSwitchText').removeClass('text-light');
+        $('#textModeIcon').addClass('text-dark');
+        $('#textModeIcon').removeClass('text-light');
+        $('#copyRight').addClass('text-dark');
+        $('#copyRight').removeClass('text-light');
     }
 
     $("#modeSwitch").on("click", () => {
         if ($("#modeSwitch").prop("checked")) {
-            activateLightMode();
-            localStorage.setItem("lightmode", "enabled");
-            $('#modeSwitchText').text('Light Mode');
-        } else {
-            deactivateLightMode();
-            localStorage.setItem("lightmode", "disabled");
+            activateDarkMode();
+            localStorage.setItem("darkmode", "enabled");
             $('#modeSwitchText').text('Dark Mode');
+        } else {
+            deactivateDarkMode();
+            localStorage.setItem("darkmode", "disabled");
+            $('#modeSwitchText').text('Light Mode');
         }
       });
       
       let mode;
-      mode = localStorage.getItem("lightmode");
+      mode = localStorage.getItem("darkmode");
       
       if (mode == "enabled") {
-        activateLightMode();
+        activateDarkMode();
         $("#modeSwitch").prop("checked", true);
-        $('#modeSwitchText').text('Light Mode');
-      } else {
-        deactivateLightMode();
-        $("#modeSwitch").prop("checked", false);
         $('#modeSwitchText').text('Dark Mode');
+      } else {
+        deactivateDarkMode();
+        $("#modeSwitch").prop("checked", false);
+        $('#modeSwitchText').text('Light Mode');
       }
 
 
