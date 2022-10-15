@@ -58,6 +58,13 @@ $(window).on('load', function() {
         $('.form-control').addClass('bg-secondary');
         $('.form-control').removeClass('text-dark');
         $('.form-control').addClass('text-light');
+        $('.accordion-item').removeClass('bg-light');
+        $('.accordion-item').addClass('bg-dark');
+        $('.accordion-item').removeClass('text-dark');
+        $('.accordion-item').addClass('text-light');
+        $('.accordion-button').removeClass('bg-light');
+        $('.accordion-button').addClass('bg-dark');
+        $('.accordion-button').addClass('light-link');
         $('.input-group-text').removeClass('bg-light');
         $('.input-group-text').addClass('bg-secondary');
         $('.input-group-text').removeClass('text-dark');
@@ -106,6 +113,13 @@ $(window).on('load', function() {
         $('.form-control').removeClass('bg-secondary');
         $('.form-control').addClass('text-dark');
         $('.form-control').removeClass('text-light');
+        $('.accordion-item').addClass('bg-light');
+        $('.accordion-item').removeClass('bg-dark');
+        $('.accordion-item').addClass('text-dark');
+        $('.accordion-item').removeClass('text-light');
+        $('.accordion-button').addClass('bg-light');
+        $('.accordion-button').removeClass('bg-dark');
+        $('.accordion-button').removeClass('light-link');
         $('.input-group-text').addClass('bg-light');
         $('.input-group-text').removeClass('bg-secondary');
         $('.input-group-text').addClass('text-dark');
