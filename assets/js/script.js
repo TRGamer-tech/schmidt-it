@@ -46,8 +46,8 @@ $(window).on('load', function() {
         $('.dropdown-menu').addClass('dropdown-menu-dark');
         $('.footer').removeClass('bg-light');
         $('.footer').addClass('bg-dark');
-        $('.footer').removeClass('text-light');
-        $('.footer').addClass('text-dark');
+        $('.footer').removeClass('text-dark');
+        $('.footer').addClass('text-light');
         $('.footer').removeClass('footer-shadow-black');
         $('.footer').addClass('footer-shadow-white');
         $('table').removeClass('table-light');
@@ -94,8 +94,8 @@ $(window).on('load', function() {
         $('.dropdown-menu').removeClass('dropdown-menu-dark');
         $('.footer').addClass('bg-light');
         $('.footer').removeClass('bg-dark');
-        $('.footer').addClass('text-light');
-        $('.footer').removeClass('text-dark');
+        $('.footer').addClass('text-dark');
+        $('.footer').removeClass('text-light');
         $('.footer').addClass('footer-shadow-black');
         $('.footer').removeClass('footer-shadow-white');
         $('table').addClass('table-light');
