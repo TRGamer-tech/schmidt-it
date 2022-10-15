@@ -37,8 +37,8 @@ $(window).on('load', function() {
         $('#loader').addClass('loader-dark');
         $('nav').removeClass('navbar-light');
         $('nav').addClass('navbar-dark');
-        $('nav').removeClass('bg-light');
-        $('nav').addClass('bg-dark');
+        //$('nav').removeClass('bg-light');
+        //$('nav').addClass('bg-dark');
         $('nav').removeClass('shadow-black');
         $('nav').addClass('shadow-white');
         $('.dropdown-menu').removeClass('dropdown-menu-light');
@@ -84,8 +84,8 @@ $(window).on('load', function() {
         $('#loader').removeClass('loader-dark');
         $('nav').addClass('navbar-light');
         $('nav').removeClass('navbar-dark');
-        $('nav').addClass('bg-light');
-        $('nav').removeClass('bg-dark');
+        //$('nav').addClass('bg-light');
+        //$('nav').removeClass('bg-dark');
         $('nav').addClass('shadow-black');
         $('nav').removeClass('shadow-white');
         $('.dropdown-menu').addClass('dropdown-menu-light');

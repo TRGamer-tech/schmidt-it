@@ -148,7 +148,7 @@
 
 nav {
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.13);
+    background: rgba(129, 129, 129, 0.13)!important;
     backdrop-filter: blur(10.7px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgb(149 149 149 / 50%);
