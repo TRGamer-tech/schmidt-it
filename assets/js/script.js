@@ -33,6 +33,8 @@ $(window).on('load', function() {
         $('body').addClass('bg-dark');
         $('body').removeClass('text-dark');
         $('body').addClass('text-light');
+        $('#loader').removeClass('loader-light');
+        $('#loader').addClass('loader-dark');
         $('nav').removeClass('navbar-light');
         $('nav').addClass('navbar-dark');
         $('nav').removeClass('bg-light');
@@ -78,6 +80,8 @@ $(window).on('load', function() {
         $('body').removeClass('bg-dark');
         $('body').addClass('text-dark');
         $('body').removeClass('text-light');
+        $('#loader').addClass('loader-light');
+        $('#loader').removeClass('loader-dark');
         $('nav').addClass('navbar-light');
         $('nav').removeClass('navbar-dark');
         $('nav').addClass('bg-light');
