@@ -41,6 +41,11 @@
     font-display: swap;
 }
 
+:root {
+    --bs-link-color: #ff7200;
+    --bs-link-hover-color: #ca670a;
+}
+
 .btn-outline-primary, .btn {
     --bs-btn-color: #ff7200!important;
     --bs-btn-hover-bg: #ff7200!important;
@@ -79,11 +84,11 @@
 }
 
 .light-link {
-    color: #5699ff;
+    color: #ffa256;
 }
 
 .light-link-hover {
-    color: #769fdd!important;
+    color: #dda876!important;
 }
 
 .light-nav-link {
