@@ -282,6 +282,7 @@ $(window).on('load', function() {
         case "/index.html":
         case "/":
             $(".nav-link").eq(2).addClass("active");
+            $(".nav-item > ul > li > a").eq(0).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
         case "/firma":
@@ -291,12 +292,12 @@ $(window).on('load', function() {
             break;
         case "/firma/ueber-mich":
         case "/firma/ueber-mich.html":
-            $(".loginToggle").eq(0).addClass("selecteddropdown");
+            $(".nav-item > ul > li > a").eq(0).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
         case "/firma/faq":
         case "/firma/faq.html":
-            $(".loginToggle").eq(1).addClass("selecteddropdown");
+            $(".nav-item > ul > li > a").eq(1).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
         case "/dienste":
