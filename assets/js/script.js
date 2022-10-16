@@ -274,6 +274,9 @@ $(window).on('load', function() {
     //Remove better nav link color if bg is light
     $('body.bg-light a.nav-link').not('.nav-link').not('.btn').removeClass('light-nav-link');
 
+    //Add better link color if bg is dark BUT NOT IN DROPDOWNS BRUUH
+    $('.nav-item > ul > li > a').removeClass('light-link');
+
     // Add Active to current site
     var pathname = window.location.pathname;
     console.log("Current URL: " + pathname);

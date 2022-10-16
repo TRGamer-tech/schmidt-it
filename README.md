@@ -1,4 +1,4 @@
-# Schmidt-IT - After Effects Crashkurs 
+# Schmidt-IT - Produktion
 ## Wo Informatik ernst genommen wird.
 
 Dieser Branch ist nur für die Entwicklung und aufbereitung der [Prodktionsseite von Schmidt-IT][prod]
