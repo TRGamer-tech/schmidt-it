@@ -294,11 +294,13 @@ $(window).on('load', function() {
             break;
         case "/firma/ueber-mich":
         case "/firma/ueber-mich.html":
+            $(".nav-link").eq(1).addClass("active");
             $(".nav-item > ul > li > a").eq(0).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
         case "/firma/faq":
         case "/firma/faq.html":
+            $(".nav-link").eq(1).addClass("active");
             $(".nav-item > ul > li > a").eq(1).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
