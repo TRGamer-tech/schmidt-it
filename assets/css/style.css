@@ -41,6 +41,15 @@
     font-display: swap;
 }
 
+:root {
+    --bs-btn-color: #ff7200!important;
+    --bs-btn-border-color: #ff7200!important;
+    --bs-btn-hover-border-color: #ff7200!important;
+    --bs-btn-active-bg: #ff7200!important;
+    --bs-btn-active-border-color: #ff7200!important;
+    --bs-btn-disabled-color: #ff7200!important;
+}
+
 .sans-serif-font {
     font-family: 'Rubik', sans-serif!important;
 }
