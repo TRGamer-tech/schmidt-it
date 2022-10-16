@@ -291,29 +291,27 @@ $(window).on('load', function() {
             break;
         case "/firma/ueber-mich":
         case "/firma/ueber-mich.html":
-            $(".nav-link").eq(2).addClass("active");
+            $(".loginToggle").eq(0).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
         case "/firma/faq":
         case "/firma/faq.html":
-            $(".nav-link").eq(3).addClass("active");
+            $(".loginToggle").eq(1).addClass("selecteddropdown");
             console.log("Active added to " + pathname);
             break;
         case "/dienste":
         case "/dienste.html":
-            $(".nav-link").eq(4).addClass("active");
+            $(".nav-link").eq(2).addClass("active");
             console.log("Active added to " + pathname);
             break;
         case "/news":
         case "/news.html":
-            $(".loginToggle").eq(0).addClass("btn-primary");
-            $(".loginToggle").eq(0).removeClass("btn-outline-primary");
+            $(".nav-link").eq(3).addClass("active");
             console.log("Active added to " + pathname);
             break;
         case "/kontakt":
         case "/kontakt.html":
-            $(".loginToggle").eq(1).addClass("btn-info");
-            $(".loginToggle").eq(1).removeClass("btn-outline-info");
+            $(".nav-link").eq(4).addClass("active");
             console.log("Active added to " + pathname);
             break;
         default:

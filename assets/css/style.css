@@ -71,6 +71,10 @@
     --bs-dropdown-link-active-bg: #ff7200;
 }
 
+.selecteddropdown {
+    background-color: #ff7200;
+}
+
 .sans-serif-font {
     font-family: 'Rubik', sans-serif!important;
 }
