@@ -281,8 +281,7 @@ $(window).on('load', function() {
         case "/index":
         case "/index.html":
         case "/":
-            $(".nav-link").eq(2).addClass("active");
-            $(".nav-item > ul > li > a").eq(0).addClass("selecteddropdown");
+            $(".nav-link").eq(0).addClass("active");
             console.log("Active added to " + pathname);
             break;
         case "/firma":
