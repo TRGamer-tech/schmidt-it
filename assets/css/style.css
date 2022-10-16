@@ -43,6 +43,7 @@
 
 .btn-outline-primary, .btn {
     --bs-btn-color: #ff7200!important;
+    --bs-btn-hover-bg: #ff7200!important;
     --bs-btn-border-color: #ff7200!important;
     --bs-btn-hover-border-color: #ff7200!important;
     --bs-btn-active-bg: #ff7200!important;
@@ -51,8 +52,8 @@
 }
 
 .form-check-input:checked {
-    background-color: var(--bs-btn-color);
-    border-color: var(--bs-btn-color);
+    background-color: #ff7200!important;
+    border-color: #ff7200!important;
 }
 
 .sans-serif-font {
