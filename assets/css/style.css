@@ -41,13 +41,18 @@
     font-display: swap;
 }
 
-:root {
+.btn-outline-primary, .btn {
     --bs-btn-color: #ff7200!important;
     --bs-btn-border-color: #ff7200!important;
     --bs-btn-hover-border-color: #ff7200!important;
     --bs-btn-active-bg: #ff7200!important;
     --bs-btn-active-border-color: #ff7200!important;
     --bs-btn-disabled-color: #ff7200!important;
+}
+
+.form-check-input:checked {
+    background-color: var(--bs-btn-color);
+    border-color: var(--bs-btn-color);
 }
 
 .sans-serif-font {
