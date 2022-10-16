@@ -67,6 +67,10 @@
     border-color: #fec886!important;
 }
 
+.dropdown-menu-dark, .dropdown-menu {
+    --bs-dropdown-link-active-bg: #ff7200;
+}
+
 .sans-serif-font {
     font-family: 'Rubik', sans-serif!important;
 }
