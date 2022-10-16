@@ -81,6 +81,7 @@ $(window).on('load', function() {
         $('#textModeIcon').addClass('text-light');
         $('#copyRight').removeClass('text-dark');
         $('#copyRight').addClass('text-light');
+        $('#twitter-social').addClass('light-link');
     }
 
     function deactivateDarkMode() {
@@ -136,6 +137,7 @@ $(window).on('load', function() {
         $('#textModeIcon').removeClass('text-light');
         $('#copyRight').addClass('text-dark');
         $('#copyRight').removeClass('text-light');
+        $('#twitter-social').removeClass('light-link');
     }
 
     $("#modeSwitch").on("click", () => {
