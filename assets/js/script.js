@@ -279,66 +279,41 @@ $(window).on('load', function() {
     console.log("Current URL: " + pathname);
     switch (pathname) {
         case "/index":
-        case "/index.php":
+        case "/index.html":
         case "/":
-            $(".nav-link").eq(0).addClass("active");
-            console.log("Active added to " + pathname);
-            break;
-        case "/helpful":
-        case "/helpful.php":
             $(".nav-link").eq(1).addClass("active");
             console.log("Active added to " + pathname);
             break;
-        case "/timetable":
-        case "/timetable.php":
+        case "/firma":
+        case "/firma.html":
+            $(".nav-link").eq(1).addClass("active");
+            console.log("Active added to " + pathname);
+            break;
+        case "/firma/ueber-mich":
+        case "/firma/ueber-mich.html":
             $(".nav-link").eq(2).addClass("active");
             console.log("Active added to " + pathname);
             break;
-        case "/planing":
-        case "/planing.php":
+        case "/firma/faq":
+        case "/firma/faq.html":
             $(".nav-link").eq(3).addClass("active");
             console.log("Active added to " + pathname);
             break;
-        case "/contact":
-        case "/contact.php":
+        case "/dienste":
+        case "/dienste.html":
             $(".nav-link").eq(4).addClass("active");
             console.log("Active added to " + pathname);
             break;
-        case "/secret":
-        case "/secret.php":
-            $("#secretbtn").eq(0).removeClass("btn-light");
-            $("#secretbtn").eq(0).removeClass("btn-dark");
-            $("#secretbtn").eq(0).removeClass("text-light");
-            $("#secretbtn").eq(0).removeClass("text-dark");
-            $("#secretbtn").eq(0).addClass("btn-secondary");
-            console.log("Active added to " + pathname);
-            break;
-        case "/login":
-        case "/login.php":
+        case "/news":
+        case "/news.html":
             $(".loginToggle").eq(0).addClass("btn-primary");
             $(".loginToggle").eq(0).removeClass("btn-outline-primary");
             console.log("Active added to " + pathname);
             break;
-        case "/register":
-        case "/register.php":
+        case "/kontakt":
+        case "/kontakt.html":
             $(".loginToggle").eq(1).addClass("btn-info");
             $(".loginToggle").eq(1).removeClass("btn-outline-info");
-            console.log("Active added to " + pathname);
-            break;
-        case "/account":
-        case "/account.php":
-            $(".shadow-secondary .dropdown-item").eq(1).addClass("active");
-            console.log("Active added to " + pathname);
-            break;
-        case "/admin/dashboard":
-        case "/admin/dashboard.php":
-            $(".nav-link").eq(1).addClass("active");
-            $(".shadow-secondary .dropdown-item").eq(0).addClass("active");
-            console.log("Active added to " + pathname);
-            break;
-        case  "/admin/perms":
-        case  "/admin/perms.php":
-            $(".nav-link").eq(2).addClass("active");
             console.log("Active added to " + pathname);
             break;
         default:
