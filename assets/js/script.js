@@ -336,3 +336,15 @@ $(window).on('load', function() {
             break;
     }
 });  
+
+LottieInteractivity.create({
+    player:'#footerLottie',
+    mode:"scroll",
+    actions: [
+        {
+        visibility: [0, 1.0],
+        type: 'play',
+        frames: [0, 100],
+        }
+    ]
+});
