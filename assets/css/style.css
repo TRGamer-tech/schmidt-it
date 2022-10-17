@@ -185,20 +185,38 @@ html {
     padding-bottom: 10rem;
 }
 */
-nav {
+.nav-blur-light {
     /* From https://css.glass */
-    background: rgba(129, 129, 129, 0.13)!important;
-    backdrop-filter: blur(10.7px);
+    background: rgb(195 195 195 / 75%)!important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(159 159 159 / 50%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-blur-dark {
+    /* From https://css.glass */
+    background: rgb(40 40 40 / 75%)!important;
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgb(149 149 149 / 50%);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.headerlogo {
+.headerlogo-light {
     /* From https://css.glass */
-    background: rgba(129, 129, 129, 0.13)!important;
-    backdrop-filter: blur(10.7px);
+    background: rgb(195 195 195 / 75%)!important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(159 159 159 / 50%);
+}
+
+.headerlogo-dark {
+    /* From https://css.glass */
+    background: rgb(40 40 40 / 75%)!important;
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgb(149 149 149 / 50%);
 }

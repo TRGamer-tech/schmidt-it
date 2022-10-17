@@ -41,6 +41,10 @@ $(window).on('load', function() {
         //$('nav').addClass('bg-dark');
         $('nav').removeClass('shadow-black');
         $('nav').addClass('shadow-white');
+        $('nav').removeClass('nav-blur-light');
+        $('nav').addClass('nav-blur-dark');
+        $('.headerlogo').removeClass('headerlogo-light');
+        $('.headerlogo').addClass('headerlogo-dark');
         $('a.active').addClass('dark-active');
         $('.dropdown-menu').removeClass('dropdown-menu-light');
         $('.dropdown-menu').addClass('dropdown-menu-dark');
@@ -82,6 +86,8 @@ $(window).on('load', function() {
         $('#copyRight').removeClass('text-dark');
         $('#copyRight').addClass('text-light');
         $('#twitter-social').addClass('light-link');
+        $('.3-card-group').removeClass('bg-light');
+        $('.3-card-group').addClass('bg-secondary');
     }
 
     function deactivateDarkMode() {
@@ -97,6 +103,10 @@ $(window).on('load', function() {
         //$('nav').removeClass('bg-dark');
         $('nav').addClass('shadow-black');
         $('nav').removeClass('shadow-white');
+        $('nav').addClass('nav-blur-light');
+        $('nav').removeClass('nav-blur-dark');
+        $('.headerlogo').addClass('headerlogo-light');
+        $('.headerlogo').removeClass('headerlogo-dark');
         $('a.active').removeClass('dark-active');
         $('.dropdown-menu').addClass('dropdown-menu-light');
         $('.dropdown-menu').removeClass('dropdown-menu-dark');
@@ -138,17 +148,19 @@ $(window).on('load', function() {
         $('#copyRight').addClass('text-dark');
         $('#copyRight').removeClass('text-light');
         $('#twitter-social').removeClass('light-link');
+        $('.3-card-group').addClass('bg-light');
+        $('.3-card-group').removeClass('bg-secondary');
     }
 
     $("#modeSwitch").on("click", () => {
         if ($("#modeSwitch").prop("checked")) {
             activateDarkMode();
             localStorage.setItem("darkmode", "enabled");
-            $('#modeSwitchText').text('Dark Mode');
+            $('#modeSwitchText').text('Hellen Modus einschalten');
         } else {
             deactivateDarkMode();
             localStorage.setItem("darkmode", "disabled");
-            $('#modeSwitchText').text('Light Mode');
+            $('#modeSwitchText').text('Dunkel Modus einschalten');
         }
       });
       
@@ -158,11 +170,11 @@ $(window).on('load', function() {
       if (mode == "enabled") {
         activateDarkMode();
         $("#modeSwitch").prop("checked", true);
-        $('#modeSwitchText').text('Dark Mode');
+        $('#modeSwitchText').text('Hellen Modus einschalten');
       } else {
         deactivateDarkMode();
         $("#modeSwitch").prop("checked", false);
-        $('#modeSwitchText').text('Light Mode');
+        $('#modeSwitchText').text('Dunkel Modus einschalten');
       }
 
 
@@ -232,11 +244,11 @@ $(window).on('load', function() {
     if ($("#textModeSwitch").prop("checked")) {
         activateSpecialText();
         localStorage.setItem("SpecialText", "enabled");
-        $('#textModeSwitchText').text('Activate Normal Font');
+        $('#textModeSwitchText').text('Normale Schriftart aktivieren');
     } else {
         deactivateSpecialText();
         localStorage.setItem("SpecialText", "disabled");
-        $('#textModeSwitchText').text('Activate Dyslexic Font');
+        $('#textModeSwitchText').text('Dyslexie Schriftart aktivieren');
     }
     });
     
@@ -246,11 +258,11 @@ $(window).on('load', function() {
     if (textMode == "enabled") {
         activateSpecialText();
         $("#textModeSwitch").prop("checked", true);
-        $('#textModeSwitchText').text('Activate Normal Font');
+        $('#textModeSwitchText').text('Normale Schriftart aktivieren');
     } else {
         deactivateSpecialText();
         $("#textModeSwitch").prop("checked", false);
-        $('#textModeSwitchText').text('Activate Dyslexic Font');
+        $('#textModeSwitchText').text('Dyslexie Schriftart aktivieren');
     }
 
     //Add Underline to all Links on hover
