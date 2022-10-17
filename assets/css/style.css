@@ -41,6 +41,10 @@
     font-display: swap;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 :root {
     --bs-link-color: #ff7200;
     --bs-link-hover-color: #ca670a;
