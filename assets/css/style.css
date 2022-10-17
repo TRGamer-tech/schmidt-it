@@ -181,7 +181,7 @@
     padding-bottom: 10rem;
 }
 */
-nav, .headerlogo {
+nav {
     /* From https://css.glass */
     background: rgba(129, 129, 129, 0.13)!important;
     backdrop-filter: blur(10.7px);
@@ -189,6 +189,14 @@ nav, .headerlogo {
     border: 1px solid rgb(149 149 149 / 50%);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.headerlogo {
+    /* From https://css.glass */
+    background: rgba(129, 129, 129, 0.13)!important;
+    backdrop-filter: blur(10.7px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(149 149 149 / 50%);
 }
 
 .footer {
