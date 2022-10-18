@@ -50,14 +50,29 @@ html {
     --bs-link-hover-color: #ca670a;
 }
 
-.btn-outline-primary, .btn {
+.btn-outline-primary {
     --bs-btn-color: #ff7200!important;
     --bs-btn-hover-bg: #ff7200!important;
     --bs-btn-border-color: #ff7200!important;
     --bs-btn-hover-border-color: #ff7200!important;
     --bs-btn-active-bg: #ff7200!important;
     --bs-btn-active-border-color: #ff7200!important;
-    --bs-btn-disabled-color: #ff7200!important;
+    --bs-btn-disabled-color: #b35000!important;
+    --bs-btn-focus-shadow-rgb: 253,100,49;
+}
+
+.btn-primary {
+    --bs-btn-bg: #ff7200!important;
+    --bs-btn-disabled-bg: #b35000!important;
+    --bs-btn-disabled-border-color: #b35000!important;
+    --bs-btn-color: #ffffff!important;
+    --bs-btn-hover-bg: #ff7200!important;
+    --bs-btn-border-color: #ff7200!important;
+    --bs-btn-hover-border-color: #ff7200!important;
+    --bs-btn-active-bg: #ff7200!important;
+    --bs-btn-active-border-color: #ff7200!important;
+    --bs-btn-disabled-color: #b35000!important;
+    --bs-btn-focus-shadow-rgb: 253,100,49;
 }
 
 .form-check-input:checked {
@@ -219,6 +234,52 @@ html {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgb(149 149 149 / 50%);
+}
+
+.custom-carousel-icon {
+    background-color: rgba(121, 121, 121, 0.82);
+    padding: 2vw;
+    border-radius: 5px;
+    background-size: 80%;
+    transition: 0.2s linear;
+}
+
+.custom-carousel-icon:hover {
+    background-color: rgb(193 125 0 / 82%);
+    transition: 0.2s linear;
+}
+
+.custom-carousel-icon:focus, .custom-carousel-icon:active {
+    background-size: 60%;
+    transition: 0.1s linear;
+}
+
+.custom-carousel-caption {
+    background-color: rgb(121 121 121 / 38%);;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.custom-carousel-indicators {
+    width: 10px!important;
+    height: 10px!important;
+    margin-right: 10px!important;
+    margin-left: 10px!important;
+    border-radius: 50%;
+}
+
+.dienste-infoblock {
+    background-color: #ff7200;
+}
+
+.dienste-infoblock-btn {
+    font-size: 1.3em;
+    margin-left: 30vw;
+}
+
+.custom-carousel-img {
+    height: 70vh!important;
+    object-fit: cover;
 }
 
 .footer {
