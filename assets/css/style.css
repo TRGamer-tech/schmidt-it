@@ -236,6 +236,52 @@ html {
     border: 1px solid rgb(149 149 149 / 50%);
 }
 
+.animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+  
+@keyframes slideIn {
+    0% {
+        transform: translateY(-1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(-1rem);
+        opacity: 0;
+    }
+}
+  
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(-1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
 .custom-carousel-icon {
     background-color: rgba(121, 121, 121, 0.82);
     padding: 2vw;
@@ -254,9 +300,14 @@ html {
     transition: 0.1s linear;
 }
 
-.custom-carousel-caption {
-    background-color: rgb(121 121 121 / 38%);;
+.custom-blurred-carousel-caption {
+    background-color: rgb(121 121 121 / 38%);
     backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.custom-carousel-caption {
+    background-color: rgb(121 121 121 / 38%);
     border-radius: 5px;
 }
 
