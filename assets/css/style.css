@@ -292,12 +292,12 @@ html {
 
 .custom-carousel-icon:hover {
     background-color: rgb(193 125 0 / 82%);
-    transition: 0.2s linear;
+    transition: 0.2 linear;
 }
 
 .custom-carousel-icon:focus, .custom-carousel-icon:active {
     background-size: 60%;
-    transition: 0.1s linear;
+    transition: 0.02s linear;
 }
 
 .custom-blurred-carousel-caption {
