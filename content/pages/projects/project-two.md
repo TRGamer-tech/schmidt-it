@@ -8,7 +8,7 @@ description: Die Webseite wurde von einem Hoster zerstört. Ich habe sie perfekt
 featuredImage:
   type: ImageBlock
   url: /images/Kurtschmid-Preview.png
-  altText: Project thumbnail image
+  altText: Musikschule Kurt Schmid Webseite Bild
 media:
   type: ImageBlock
   url: /images/bg2.jpg
