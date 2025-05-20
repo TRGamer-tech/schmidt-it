@@ -20,7 +20,7 @@
             },
             {
                 "type": "Link",
-                "label": "Teamviewer",
+                "label": "TeamViewer",
                 "altText": "TeamViewer",
                 "url": "/tv",
                 "showIcon": false,
