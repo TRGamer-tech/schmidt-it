@@ -40,6 +40,7 @@ sections:
       - type: Link
         label: Alle Projekte
         url: /projekte
+        altText: Alle Projekte hier
     showDate: false
     showDescription: true
     showFeaturedImage: true
