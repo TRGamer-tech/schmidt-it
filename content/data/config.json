@@ -1,0 +1,102 @@
+{
+    "type": "Config",
+    "favicon": "/images/favicon.svg",
+    "header": {
+        "type": "Header",
+        "headerVariant": "variant-c",
+        "isSticky": false,
+        "title": "Schmidt-IT",
+        "isTitleVisible": true,
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Info",
+                "url": "/info"
+            },
+            {
+                "type": "Link",
+                "label": "Projects",
+                "url": "/projects"
+            },
+            {
+                "type": "Link",
+                "label": "TeamViewer",
+                "altText": "TeamViewer",
+                "url": "/tv",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "altText": "GitHub",
+                "label": "GitHub",
+                "url": "https://github.com/TRGamer-tech/schmidt-it",
+                "icon": "github"
+            }
+        ],
+        "styles": {
+            "self": {
+                "width": "full"
+            }
+        }
+    },
+    "footer": {
+        "type": "Footer",
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "Info",
+                "url": "/info",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Kontakt",
+                "url": "mailto:martinschmidt1107@gmail.com",
+                "altText": "Kontakt via E-Mail"
+            },
+            {
+                "type": "Link",
+                "label": "GitHub",
+                "url": "https://github.com/TRGamer-tech/schmidt-it",
+                "altText": "Schmidt-IT Github"
+            },
+            {
+                "type": "Link",
+                "label": "TeamViewer",
+                "altText": "TeamViewer",
+                "url": "/tv",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
+            }
+        ],
+        "contacts": {
+            "type": "ContactBlock",
+            "title": "Contact details",
+            "phoneNumber": "850-123-5021",
+            "phoneAltText": "My phone number",
+            "email": "thisismyemail.@myemail.me",
+            "emailAltText": "My email",
+            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "addressAltText": "My address"
+        },
+        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
+            }
+        }
+    }
+}
