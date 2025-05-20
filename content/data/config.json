@@ -68,7 +68,7 @@
             {
                 "type": "Link",
                 "label": "TeamViewer",
-                "altText": "",
+                "altText": "TeamViewer",
                 "url": "/tv",
                 "showIcon": false,
                 "icon": "arrowRight",
