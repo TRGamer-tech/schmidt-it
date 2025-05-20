@@ -17,16 +17,6 @@
                 "type": "Link",
                 "label": "Projects",
                 "url": "/projects"
-            },
-            {
-                "type": "Link",
-                "label": "Learn more",
-                "altText": "",
-                "url": "/Teamviewer",
-                "showIcon": false,
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "elementId": ""
             }
         ],
         "socialLinks": [
