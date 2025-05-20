@@ -1,25 +1,28 @@
 import { defineStackbitConfig } from '@stackbit/types';
-import { GitContentSource } from "@stackbit/cms-git";
+import { GitContentSource } from '@stackbit/cms-git';
+import { allModels } from './.stackbit/models';
 
-export default defineStackbitConfig({
-    "stackbitVersion": "~0.6.0",
-    "nodeVersion": "18",
-    "ssgName": "custom",
-    "contentSources": [
+const config = defineStackbitConfig({
+    stackbitVersion: '~0.7.0',
+    ssgName: 'nextjs',
+    nodeVersion: '18',
+    contentSources: [
         new GitContentSource({
-        rootPath: __dirname,
-        contentDirs: ["content"],
-        models: [
-            {
-            name: "Page",
-            // Define the model as a page model
-            type: "page",
-            urlPath: "/{slug}",
-            filePath: "content/pages/{slug}.json",
-            fields: [{ name: "title", type: "string", required: true }]
+            rootPath: __dirname,
+            contentDirs: ['content'],
+            models: allModels,
+            assetsConfig: {
+                referenceType: 'static',
+                staticDir: 'public',
+                uploadDir: 'images',
+                publicPath: '/'
             }
-        ],
         })
     ],
-    "postInstallCommand": "npm i --no-save @stackbit/types"
-})
+    presetSource: {
+        type: 'files',
+        presetDirs: ['./.stackbit/presets']
+    },
+    styleObjectModelName: 'ThemeStyle'
+});
+export default config;
