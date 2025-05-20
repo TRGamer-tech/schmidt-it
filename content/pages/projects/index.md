@@ -1,6 +1,6 @@
 ---
 type: ProjectFeedLayout
-title: Projects
+title: Projekte
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -27,7 +27,7 @@ projectFeed:
         - pb-12
 topSections:
   - type: HeroSection
-    title: Projects
+    title: Projekte
     subtitle: ''
     actions: []
     colors: colors-f
