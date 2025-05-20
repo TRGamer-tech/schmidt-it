@@ -77,7 +77,7 @@ bottomSections:
         - name: nachricht
           label: Nachricht
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Erzähl mir von deinem Projekt
           isRequired: true
           width: full
           type: TextareaFormControl
