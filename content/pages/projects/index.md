@@ -75,7 +75,7 @@ bottomSections:
           width: full
           type: EmailFormControl
         - name: nachricht
-          label: Message
+          label: Nachricht
           hideLabel: true
           placeholder: Tell me about your project
           isRequired: true
