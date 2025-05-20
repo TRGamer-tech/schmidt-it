@@ -80,7 +80,7 @@
             "type": "ContactBlock",
             "title": "Kontakt Details",
             "phoneNumber": "0041775088622",
-            "phoneAltText": "My phone number",
+            "phoneAltText": "Meine Telefonnummer",
             "email": "thisismyemail.@myemail.me",
             "emailAltText": "My email",
             "address": "312 Lovely Street, Brooklyn, NY, 123456",
