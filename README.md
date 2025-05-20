@@ -1,21 +1,36 @@
-# Schmidt-IT - Produktion
+# Schmidt-IT
 ## Wo Informatik ernst genommen wird.
 
-Dieser Branch ist nur für die Entwicklung und aufbereitung der [Prodktionsseite von Schmidt-IT][prod]
+Dies ist das offizielle GitHub für die Seite Schmidt-IT. Sie unterliegt der MIT Lizenz und ist somit frei benutzbar.
 
 ## Inhalt
-- [Neue Beta Hauptseite][prod]
+
+- Hauptseite (schmidt-it.ch)
+- After Effects Crashkurs (aecrashkurs.schmidt-it.ch)
+- Alte Hauptseite (old.schmidt-it.ch)
+- Neue Beta Hauptseite (prod.schmidt-it.ch)
+- Weitere zukünftige Projekte mit der Webseite
 
 ## Infos
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b9380bcd-7be0-48de-8c4d-fd039a0a1805/deploy-status?branch=prod)](https://app.netlify.com/sites/schmidt-it/deploys)
+Die Webseite wird auf Netlify (netlify.com) gehostet, jedoch werden die aktualisierungen nur hier auf GitHub gemacht. 
 
-Die Seite wird momentan noch sehr viel weiterentwickelt und ist in einem neuen Status.
-Ich freue mich auf weitere Änderungen!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9380bcd-7be0-48de-8c4d-fd039a0a1805/deploy-status)](https://app.netlify.com/sites/schmidt-it/deploys)
+
+> Branches and deploys:
+> 
+> Netlify lets you control which branches in your Git repository you want to deploy.
+> By default, Netlify deploys the site’s production branch after every change.
+> To generate branch deploys for other branches in your repository, select your site on
+> the Sites page. Then go to Site settings > Build & deploy > Continuous Deployment >
+> Branches, and select Edit settings. You can choose to deploy all branches
+> (including future branches), or select individual branches you would like to deploy.
+
+Quelle: [Netlify Site Deploys][netdocs]
 
 ## Lizenz
 MIT
 
 **Gratis Webseite, Yayy!**
 
-[prod]: <https://prod.schmidt-it.ch>
+[netdocs]: <https://docs.netlify.com/site-deploys/overview/#branches-and-deploys>
