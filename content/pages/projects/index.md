@@ -47,7 +47,7 @@ topSections:
 bottomSections:
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "Melde dich doch bei mir \U0001F4AC"
     colors: colors-f
     form:
       type: FormBlock
