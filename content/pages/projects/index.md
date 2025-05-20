@@ -70,7 +70,7 @@ bottomSections:
         - name: email
           label: E-Mail
           hideLabel: true
-          placeholder: Email
+          placeholder: E-Mail
           isRequired: true
           width: full
           type: EmailFormControl
