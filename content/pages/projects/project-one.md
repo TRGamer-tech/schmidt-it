@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: A very cool code project
+title: Martin Schmidt Webseite
 colors: colors-a
 date: '2023-06-24'
 client: Awesome client
