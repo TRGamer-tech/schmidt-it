@@ -1,6 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+document.addEventListener("DOMContentLoaded", function () {
+  const root = document.getElementById("root");
+  root.innerHTML = `
+    <h1>Willkommen auf deiner Netlify-kompatiblen Website!</h1>
+    <p>Diese Seite verwendet kein React oder react-dom.</p>
+  `;
+});
