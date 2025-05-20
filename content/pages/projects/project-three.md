@@ -11,7 +11,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/UnitedPro-Preview.png
-  altText: Project thumbnail image
+  altText: United Pro Webseite Bild
 media:
   type: ImageBlock
   url: /images/bg3.jpg
