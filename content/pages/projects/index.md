@@ -56,7 +56,7 @@ bottomSections:
         - name: vorname
           label: Vorname
           hideLabel: true
-          placeholder: First Name
+          placeholder: Vorname
           isRequired: true
           width: 1/2
           type: TextFormControl
