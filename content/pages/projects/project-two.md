@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Redesign Webseite Musikschule Kurt Schmid
+title: Redesign Webseite Musikschule
 colors: colors-a
 date: '2025-05-20'
 client: Kurt Schmid
