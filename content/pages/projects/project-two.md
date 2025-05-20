@@ -7,7 +7,7 @@ client: Kurt Schmid
 description: Die Webseite wurde von einem Hoster zerstört. Ich habe sie perfekt repariert.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/Kurtschmid-Preview.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
