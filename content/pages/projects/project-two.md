@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Redesign Webseite Musikschule
 colors: colors-a
-date: '2025-05-20'
+date: '2025-05-06'
 client: Kurt Schmid
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
