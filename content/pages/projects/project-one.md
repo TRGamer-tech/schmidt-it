@@ -11,7 +11,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/Martinschmidt-Preview.png
-  altText: Project thumbnail image
+  altText: Martin Schmidt Webseite Bild
 media:
   type: ImageBlock
   url: /images/bg1.jpg
