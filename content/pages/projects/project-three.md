@@ -3,7 +3,7 @@ type: ProjectLayout
 title: United Webseite
 colors: colors-a
 date: '2024-09-21'
-client: Awesome client
+client: unitedpro.ch
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
   because I worked with an entire team :) but they definitely followed my lead
