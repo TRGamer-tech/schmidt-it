@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: SCHMIDT-IT
-    subtitle: Wo Informatik ernst genommen wird.
+    subtitle: Wo Webseiten ernst genommen werden.
     styles:
       self:
         height: auto
