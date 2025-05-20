@@ -3,7 +3,7 @@ type: ProjectLayout
 title: Redesign Webseite Musikschule Kurt Schmid
 colors: colors-a
 date: '2025-05-20'
-client: Awesome client
+client: Kurt Schmid
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
   because I worked with an entire team :) but they definitely followed my lead
