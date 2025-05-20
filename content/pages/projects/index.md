@@ -54,7 +54,7 @@ bottomSections:
       elementId: sign-up-form
       fields:
         - name: vorname
-          label: First Name
+          label: Vorname
           hideLabel: true
           placeholder: First Name
           isRequired: true
