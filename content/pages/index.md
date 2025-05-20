@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: SCHMIDT-IT
-    subtitle: Wo Informatik ernst genommen wird.
+    subtitle: Wo Webseiten ernst genommen werden.
     styles:
       self:
         height: auto
@@ -38,8 +38,9 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: See all projects
-        url: /projects
+        label: Alle Projekte
+        url: /projekte
+        altText: Alle Projekte hier
     showDate: false
     showDescription: true
     showFeaturedImage: true
@@ -59,7 +60,7 @@ sections:
           - pl-4
           - pr-4
         textAlign: left
-    subtitle: Projects
+    subtitle: Projekte
   - type: ContactSection
     colors: colors-f
     backgroundSize: full

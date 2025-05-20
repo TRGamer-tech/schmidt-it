@@ -1,6 +1,6 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/3_Favicon_OrangeLogo_DarkBG.png",
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
@@ -78,13 +78,13 @@
         ],
         "contacts": {
             "type": "ContactBlock",
-            "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "title": "Kontakt Details",
+            "phoneNumber": "0041775088622",
+            "phoneAltText": "Meine Telefonnummer",
+            "email": "martinschmidt1107@gmail.com",
+            "emailAltText": "Meine E-Mail Adresse",
+            "address": "Gumiweg 31, 3672 Oberdiessbach",
+            "addressAltText": "Meine Adresse"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
         "styles": {
