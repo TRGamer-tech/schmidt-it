@@ -64,45 +64,33 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: "Hast du ein interessantes Projekt? Erzähl mir mehr...\U0001F4AC"
     form:
       type: FormBlock
       elementId: sign-up-form
       fields:
-        - name: firstName
-          label: First Name
+        - name: vorname
+          label: Vorname
           hideLabel: true
-          placeholder: First Name
+          placeholder: Vorname
           isRequired: true
           width: 1/2
           type: TextFormControl
-        - name: lastName
-          label: Last Name
+        - name: nachname
+          label: Nachname
           hideLabel: true
-          placeholder: Last Name
+          placeholder: Nachname
           isRequired: false
           width: 1/2
           type: TextFormControl
         - name: email
-          label: Email
+          label: E-Mail
           hideLabel: true
-          placeholder: Email
+          placeholder: E-Mail
           isRequired: true
-          width: 1/2
-          type: EmailFormControl
-        - name: address
-          label: Address
-          hideLabel: true
-          placeholder: Address
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
           width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+          type: EmailFormControl
+      submitLabel: "Los geht's \U0001F680"
       styles:
         self:
           textAlign: center
