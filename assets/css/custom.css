@@ -349,7 +349,6 @@ section.in-view {
 }
 section:not(.in-view) {
   filter: blur(0.5px) brightness(0.98);
-  opacity: 0.98;
 }
 @media (max-width: 640px) {
   section {
