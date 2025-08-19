@@ -6,13 +6,27 @@
     --dark: #0f172a;
     --light: #f8fafc;
     --text-dark: #e5e7eb; /* Helleres Grau für Standardtext */
-    --text-light: #fff;
+    --text-light: #000;
     --text-muted: #f3f4f6;
 }
 
 html.dark body {
     background-color: var(--dark);
     color: var(--text-light);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark);
+        color: var(--text-dark);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: var(--light)!important;
+        color: var(--text-light)!important;
+    }
 }
 
 body {
